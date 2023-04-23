@@ -13,7 +13,7 @@ pipeline{
         }
         stage('deploy'){
             steps{
-              sh 'docker run -d -p 8001:8001 django-todo-app'
+              sh 'docker-compose down && docker-compose up -d'
 }
 }
 }
