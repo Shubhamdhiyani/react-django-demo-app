@@ -1,1 +1,1 @@
-# react-django-demo-app
+# "react-django-demo-app"
